@@ -409,12 +409,41 @@ def run_initial_screening(jd_data: dict, resumes_dir: str, api_key: str) -> Agen
 
 def continue_screening(state: AgentState, user_message: str, action: str) -> AgentState:
     """
-    Resume the graph from await_feedback with a new user message and action.
+    Handle a user interaction without re-running the full pipeline.
+    Calls only the relevant node function(s) directly to avoid recursion.
     action must be one of: refine, compare, deep_screen, questions, done
     """
     updated = dict(state)
     updated["user_feedback"] = user_message
     updated["next_action"] = action
-    updated["messages"] = updated.get("messages", []) + [HumanMessage(content=user_message)]
-    result = graph.invoke(updated)
-    return result
+    updated["messages"] = list(updated.get("messages", [])) + [HumanMessage(content=user_message)]
+
+    def _merge(base: dict, patch: dict) -> dict:
+        """Merge a node's return dict into the running state."""
+        result = dict(base)
+        for k, v in patch.items():
+            if k == "messages":
+                result["messages"] = list(result.get("messages", [])) + list(v)
+            else:
+                result[k] = v
+        return result
+
+    if action == "refine":
+        updated = _merge(updated, refine_search(updated))
+        updated = _merge(updated, search_resumes(updated))
+        updated = _merge(updated, rank_candidates(updated))
+        updated = _merge(updated, generate_report(updated))
+
+    elif action == "compare":
+        updated = _merge(updated, compare_node(updated))
+
+    elif action == "questions":
+        updated = _merge(updated, questions_node(updated))
+
+    elif action == "deep_screen":
+        updated = _merge(updated, deep_screen(updated))
+        updated = _merge(updated, final_recommendation_node(updated))
+
+    # action == "done" → return state as-is
+
+    return updated
