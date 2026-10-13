@@ -1,0 +1,37 @@
+{
+  "id": "r005",
+  "name": "Emily Rodriguez",
+  "email": "emily.r@email.com",
+  "phone": "+1-555-0105",
+  "location": "Chicago, IL",
+  "years_experience": 4,
+  "current_title": "Data Scientist",
+  "summary": "Data scientist with expertise in machine learning, Python, and NLP. Built models deployed to production serving millions of predictions daily.",
+  "skills": [
+    "Python",
+    "scikit-learn",
+    "TensorFlow",
+    "PyTorch",
+    "SQL",
+    "Pandas",
+    "NumPy",
+    "NLP",
+    "Spark",
+    "Tableau"
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. Data Science",
+      "institution": "University of Chicago",
+      "year": 2019
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "InsureTech Co.",
+      "years": 4,
+      "description": "Built fraud detection model reducing false positives by 30%. Developed NLP pipeline to classify customer complaints automatically."
+    }
+  ]
+}

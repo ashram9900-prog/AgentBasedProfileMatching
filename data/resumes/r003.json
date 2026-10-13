@@ -1,0 +1,43 @@
+{
+  "id": "r003",
+  "name": "Carol Johnson",
+  "email": "carol.j@email.com",
+  "phone": "+1-555-0103",
+  "location": "New York, NY",
+  "years_experience": 7,
+  "current_title": "Lead Frontend Engineer",
+  "summary": "Lead frontend engineer with deep expertise in React, performance optimisation, and design systems. Mentored 6 junior developers.",
+  "skills": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "Next.js",
+    "Tailwind CSS",
+    "Storybook",
+    "Cypress",
+    "AWS",
+    "CI/CD",
+    "Redux Toolkit"
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. Computer Science",
+      "institution": "Columbia University",
+      "year": 2016
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Frontend Engineer",
+      "company": "FinTech Solutions",
+      "years": 4,
+      "description": "Architected design system used across 5 product teams. Improved Core Web Vitals scores from 60 to 95."
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Media Group",
+      "years": 3,
+      "description": "Built React-based CMS and article rendering engine handling 10M page views daily."
+    }
+  ]
+}

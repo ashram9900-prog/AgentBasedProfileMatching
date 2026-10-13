@@ -1,0 +1,8 @@
+{
+  "id": "jd001",
+  "title": "Senior React Developer",
+  "company": "TechVision Inc.",
+  "location": "San Francisco, CA (Hybrid)",
+  "salary_range": "$130,000 - $160,000",
+  "text": "We are looking for a Senior React Developer to join our product team.\n\nRole Overview:\nYou will lead frontend development for our core SaaS platform, mentor junior developers, and drive technical decisions.\n\nMust-Have Requirements:\n- 4+ years of experience with React\n- Proficiency in TypeScript\n- Experience with state management (Redux or similar)\n- Strong JavaScript fundamentals\n- Experience writing unit and integration tests (Jest, Cypress)\n- Familiarity with CI/CD pipelines\n\nNice-to-Have:\n- Experience with Next.js\n- GraphQL knowledge\n- Design system experience\n- AWS or cloud deployment experience\n\nResponsibilities:\n- Build and maintain React components and application architecture\n- Conduct code reviews and mentor junior team members\n- Collaborate with design and backend teams\n- Optimise application performance\n\nWe value candidates who have worked on high-traffic applications and have a track record of mentoring others."
+}

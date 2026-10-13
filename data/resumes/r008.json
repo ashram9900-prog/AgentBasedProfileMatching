@@ -1,0 +1,43 @@
+{
+  "id": "r008",
+  "name": "Henry Patel",
+  "email": "henry.patel@email.com",
+  "phone": "+1-555-0108",
+  "location": "Denver, CO",
+  "years_experience": 8,
+  "current_title": "Principal Backend Engineer",
+  "summary": "Principal backend engineer with 8 years in Python. Expert in system design, database optimisation, and distributed systems.",
+  "skills": [
+    "Python",
+    "Go",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "Kafka",
+    "Docker",
+    "AWS",
+    "System Design",
+    "gRPC"
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Computer Engineering",
+      "institution": "Colorado State University",
+      "year": 2016
+    }
+  ],
+  "experience": [
+    {
+      "title": "Principal Backend Engineer",
+      "company": "CloudScale",
+      "years": 5,
+      "description": "Designed distributed event streaming platform processing 1B events/day using Kafka and Python. Reduced database query latency by 70%."
+    },
+    {
+      "title": "Senior Backend Developer",
+      "company": "E-Commerce Giant",
+      "years": 3,
+      "description": "Led backend for checkout service handling Black Friday peak of 50k transactions/minute."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "r007",
+  "name": "Grace Kim",
+  "email": "grace.kim@email.com",
+  "phone": "+1-555-0107",
+  "location": "Portland, OR",
+  "years_experience": 5,
+  "current_title": "Backend Python Engineer",
+  "summary": "Backend engineer with strong Python and FastAPI experience. Built high-throughput microservices and designed scalable data pipelines.",
+  "skills": [
+    "Python",
+    "FastAPI",
+    "Django",
+    "PostgreSQL",
+    "Redis",
+    "Celery",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "RabbitMQ"
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "Oregon State University",
+      "year": 2019
+    }
+  ],
+  "experience": [
+    {
+      "title": "Backend Python Engineer",
+      "company": "LogiTech Startup",
+      "years": 3,
+      "description": "Built FastAPI microservices handling 50k requests/second. Designed async Celery pipeline for real-time logistics tracking."
+    },
+    {
+      "title": "Python Developer",
+      "company": "DataFlow Inc.",
+      "years": 2,
+      "description": "Developed Django REST API and ETL pipelines for financial data aggregation."
+    }
+  ]
+}

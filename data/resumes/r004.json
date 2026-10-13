@@ -1,0 +1,33 @@
+{
+  "id": "r004",
+  "name": "David Park",
+  "email": "david.park@email.com",
+  "phone": "+1-555-0104",
+  "location": "Seattle, WA",
+  "years_experience": 2,
+  "current_title": "Junior Frontend Developer",
+  "summary": "Junior developer with React knowledge gained through bootcamp and personal projects. Eager to grow in a production environment.",
+  "skills": [
+    "React",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Git",
+    "Bootstrap"
+  ],
+  "education": [
+    {
+      "degree": "B.A. Information Technology",
+      "institution": "Seattle Pacific University",
+      "year": 2022
+    }
+  ],
+  "experience": [
+    {
+      "title": "Junior Frontend Developer",
+      "company": "WebAgency LLC",
+      "years": 2,
+      "description": "Developed marketing landing pages and small React applications for clients."
+    }
+  ]
+}

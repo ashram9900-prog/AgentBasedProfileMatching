@@ -1,0 +1,48 @@
+{
+  "id": "r010",
+  "name": "James Thompson",
+  "email": "james.t@email.com",
+  "phone": "+1-555-0110",
+  "location": "Los Angeles, CA",
+  "years_experience": 6,
+  "current_title": "Product Manager",
+  "summary": "Product manager with a technical background, experienced in leading cross-functional teams and delivering B2B SaaS products.",
+  "skills": [
+    "Product Strategy",
+    "Agile",
+    "Scrum",
+    "SQL",
+    "Figma",
+    "Jira",
+    "A/B Testing",
+    "Data Analysis",
+    "Roadmap Planning",
+    "Stakeholder Management"
+  ],
+  "education": [
+    {
+      "degree": "MBA",
+      "institution": "UCLA Anderson",
+      "year": 2018
+    },
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "USC",
+      "year": 2016
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Product Manager",
+      "company": "SaaS Platform Co.",
+      "years": 4,
+      "description": "Launched 3 major product features generating $2M ARR. Defined roadmap for API product serving 500 enterprise customers."
+    },
+    {
+      "title": "Product Manager",
+      "company": "Mobile App Startup",
+      "years": 2,
+      "description": "Grew user base from 10k to 250k through data-driven feature prioritisation."
+    }
+  ]
+}

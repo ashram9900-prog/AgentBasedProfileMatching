@@ -1,0 +1,8 @@
+{
+  "id": "jd002",
+  "title": "Senior Data Scientist",
+  "company": "DataDriven Labs",
+  "location": "Boston, MA (Remote-friendly)",
+  "salary_range": "$140,000 - $170,000",
+  "text": "We're hiring a Senior Data Scientist to expand our AI/ML team.\n\nRole Overview:\nYou will build and deploy machine learning models, design experiments, and communicate findings to stakeholders.\n\nMust-Have Requirements:\n- 4+ years of hands-on data science experience\n- Strong Python skills (scikit-learn, Pandas, NumPy)\n- Experience with deep learning frameworks (PyTorch or TensorFlow)\n- SQL proficiency\n- Ability to deploy models to production\n\nNice-to-Have:\n- PhD or advanced degree in a quantitative field\n- Experience with MLflow or similar experiment tracking\n- NLP or computer vision specialisation\n- Cloud ML platforms (AWS SageMaker, GCP Vertex AI)\n- A/B testing experience\n\nResponsibilities:\n- Develop, train, and evaluate machine learning models\n- Collaborate with engineering to deploy models at scale\n- Design and analyse A/B tests\n- Present findings to non-technical stakeholders"
+}

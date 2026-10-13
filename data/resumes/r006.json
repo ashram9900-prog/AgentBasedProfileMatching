@@ -1,0 +1,43 @@
+{
+  "id": "r006",
+  "name": "Frank Liu",
+  "email": "frank.liu@email.com",
+  "phone": "+1-555-0106",
+  "location": "Boston, MA",
+  "years_experience": 6,
+  "current_title": "Senior Data Scientist",
+  "summary": "Senior data scientist specialising in deep learning and computer vision. Published 3 research papers. Experienced with large-scale ML pipelines.",
+  "skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Computer Vision",
+    "MLflow",
+    "Kubernetes",
+    "SQL",
+    "AWS SageMaker",
+    "A/B Testing",
+    "Feature Engineering"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D. Machine Learning",
+      "institution": "MIT",
+      "year": 2018
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Data Scientist",
+      "company": "HealthAI",
+      "years": 4,
+      "description": "Led computer vision project for medical image analysis with 94% accuracy. Built MLflow-based experiment tracking platform."
+    },
+    {
+      "title": "Data Scientist",
+      "company": "AdTech Corp",
+      "years": 2,
+      "description": "Developed recommendation engine increasing click-through rate by 18%."
+    }
+  ]
+}

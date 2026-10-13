@@ -1,0 +1,35 @@
+{
+  "id": "r002",
+  "name": "Bob Martinez",
+  "email": "bob.martinez@email.com",
+  "phone": "+1-555-0102",
+  "location": "Austin, TX",
+  "years_experience": 3,
+  "current_title": "Full Stack Developer",
+  "summary": "Full stack developer with strong React skills and backend experience in Python/Django.",
+  "skills": [
+    "React",
+    "Python",
+    "Django",
+    "JavaScript",
+    "PostgreSQL",
+    "Docker",
+    "REST APIs",
+    "Git"
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Software Engineering",
+      "institution": "UT Austin",
+      "year": 2020
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Developer",
+      "company": "TechCorp",
+      "years": 3,
+      "description": "Built React frontend and Django REST API for a SaaS analytics platform."
+    }
+  ]
+}

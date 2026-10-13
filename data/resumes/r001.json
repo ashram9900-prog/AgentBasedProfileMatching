@@ -1,0 +1,43 @@
+{
+  "id": "r001",
+  "name": "Alice Chen",
+  "email": "alice.chen@email.com",
+  "phone": "+1-555-0101",
+  "location": "San Francisco, CA",
+  "years_experience": 5,
+  "current_title": "Senior Frontend Developer",
+  "summary": "Experienced frontend developer specialising in React and TypeScript. Led teams of 4 engineers, delivered high-traffic e-commerce platforms.",
+  "skills": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Redux",
+    "GraphQL",
+    "Jest",
+    "Webpack",
+    "Node.js"
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "UC Berkeley",
+      "year": 2018
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Frontend Developer",
+      "company": "ShopFast Inc.",
+      "years": 3,
+      "description": "Built and maintained React-based storefront serving 2M users. Reduced page load time by 40% through code splitting and lazy loading."
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "StartupXYZ",
+      "years": 2,
+      "description": "Developed React dashboard for IoT data visualisation using D3.js and WebSockets."
+    }
+  ]
+}

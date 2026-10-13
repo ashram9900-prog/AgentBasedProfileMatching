@@ -1,0 +1,8 @@
+{
+  "id": "jd003",
+  "title": "Senior Backend Python Engineer",
+  "company": "ScaleUp Systems",
+  "location": "Remote (US only)",
+  "salary_range": "$125,000 - $155,000",
+  "text": "We need a Senior Backend Python Engineer to build scalable services.\n\nRole Overview:\nJoin our backend platform team to design and build high-performance Python services and APIs.\n\nMust-Have Requirements:\n- 4+ years of Python backend development\n- Experience with FastAPI or Django REST Framework\n- PostgreSQL or similar relational database experience\n- Docker and containerisation\n- Understanding of async programming in Python\n\nNice-to-Have:\n- Kubernetes experience\n- Message queue experience (Kafka, RabbitMQ, Celery)\n- Redis or caching layer expertise\n- AWS experience\n- Go or another systems language\n\nResponsibilities:\n- Design and implement RESTful and gRPC APIs\n- Optimise database queries and data access patterns\n- Write comprehensive tests and documentation\n- Participate in on-call rotations"
+}

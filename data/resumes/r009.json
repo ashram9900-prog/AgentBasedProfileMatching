@@ -1,0 +1,37 @@
+{
+  "id": "r009",
+  "name": "Irene Walsh",
+  "email": "irene.walsh@email.com",
+  "phone": "+1-555-0109",
+  "location": "Miami, FL",
+  "years_experience": 4,
+  "current_title": "DevOps Engineer",
+  "summary": "DevOps engineer experienced in CI/CD, infrastructure as code, and Kubernetes cluster management.",
+  "skills": [
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "AWS",
+    "GitHub Actions",
+    "Jenkins",
+    "Python",
+    "Bash",
+    "Prometheus",
+    "Grafana"
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Information Systems",
+      "institution": "Florida International University",
+      "year": 2020
+    }
+  ],
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "CloudOps Ltd.",
+      "years": 4,
+      "description": "Managed Kubernetes clusters running 200+ microservices. Built Terraform modules for multi-region AWS deployments."
+    }
+  ]
+}
